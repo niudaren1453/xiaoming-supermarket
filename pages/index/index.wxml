@@ -1,0 +1,284 @@
+<view class="index">
+    <view class="status_bar">  </view>
+    <view class="bg_round"></view>
+    <view class="search_box"> 
+        <view class="mail_name"> 小铭超市</view>
+        <view class="mail_describe"> 就是便宜！</view>
+        <view class="search_block">
+            <view class="relative">
+                <view class="search_logo"></view>
+                <view class="search_font">鸡蛋</view>
+            </view>
+        </view>
+    </view>
+    <!-- 这是啥？ -->
+    <view class="location_box">
+        <view class="location_left">
+            <view class="location_logo"></view>
+            <view class="location_font">阴间商店</view>
+            <view class="location_arrow"></view>
+        </view>
+        <view class="location_right"> 
+            <view class="location_share"></view>
+            <view class="location_font2">分享</view>
+        </view>
+    </view>
+    <!-- lunbo -->
+    <swiper class="lunbo" indicator-dots indicator-color="rgba(0,0,0,0.5)"
+    autoplay interval='5000'>
+        <swiper-item>11</swiper-item>
+        <swiper-item>22</swiper-item>
+        <swiper-item>33</swiper-item>
+    </swiper>
+    <!-- tab -->
+    <view class="tab">
+        <view class="tab_item">
+            <view class="item_img">
+            </view>
+            <view class="item_font"> 阴阳果</view>
+        </view>
+        <view class="tab_item">
+            <view class="item_img">
+            </view>
+            <view class="item_font"> 阴阳果</view>
+        </view>
+        <view class="tab_item">
+            <view class="item_img">
+            </view>
+            <view class="item_font"> 阴阳果</view>
+        </view>
+        <view class="tab_item">
+            <view class="item_img">
+            </view>
+            <view class="item_font"> 阴阳果</view>
+        </view>
+        <view class="tab_item">
+            <view class="item_img">
+            </view>
+            <view class="item_font"> 阴阳果</view>
+        </view>
+        <view class="tab_item">
+            <view class="item_img">
+            </view>
+            <view class="item_font"> 阴阳果</view>
+        </view>
+        <view class="tab_item">
+            <view class="item_img">
+            </view>
+            <view class="item_font"> 阴阳果</view>
+        </view>
+        <view class="tab_item">
+            <view class="item_img">
+            </view>
+            <view class="item_font"> 阴阳果</view>
+        </view>
+    </view>
+    <!-- bom -->
+    <view class="bottom"> 
+        <!-- 推荐 -->
+        <view class="recommend">
+            <view class="top_box">
+                <view class="font_logo">
+                    推荐
+                    好货
+                </view>
+                <view class="font_describe">
+                    <text decode>今日推荐&nbsp;&nbsp;好货抢不停</text>
+                </view>
+                <view class="button_box">
+                    <view class="button_font">全部好货</view>
+                    <view class="button_arrow"></view>
+                </view>
+                
+            </view>
+            <scroll-view class="scroll_view" scroll-x>
+
+                <view class="scroll_item">
+                    <view class="item_img">
+                        <image src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    </view>
+                    <view class="item_name">
+                        阴阳草120g/袋
+                    </view>
+                    <view class="item_price">￥1.99</view>
+                    <view class="item_discount">￥3.48</view>
+                    <view class="item_button"> 
+                        <view class="button_logo"></view>
+                    </view>
+                </view>
+
+                <view class="scroll_item">
+                    <view class="item_img">
+                        <image src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    </view>
+                    <view class="item_name">
+                        阴阳草120g/袋
+                    </view>
+                    <view class="item_price">￥1.99</view>
+                    <view class="item_discount">￥3.48</view>
+                    <view class="item_button"> 
+                        <view class="button_logo"></view>
+                    </view>
+                </view>
+
+                <view class="scroll_item">
+                    <view class="item_img">
+                        <image src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    </view>
+                    <view class="item_name">
+                        阴阳草120g/袋
+                    </view>
+                    <view class="item_price">￥1.99</view>
+                    <view class="item_discount">￥3.48</view>
+                    <view class="item_button"> 
+                        <view class="button_logo"></view>
+                    </view>
+                </view>
+
+                <view class="scroll_item">
+                    <view class="item_img">
+                        <image src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    </view>
+                    <view class="item_name">
+                        阴阳草120g/袋
+                    </view>
+                    <view class="item_price">￥1.99</view>
+                    <view class="item_discount">￥3.48</view>
+                    <view class="item_button"> 
+                        <view class="button_logo"></view>
+                    </view>
+                </view>
+
+                <view class="scroll_item">
+                    <view class="item_img">
+                        <image src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    </view>
+                    <view class="item_name">
+                        阴阳草120g/袋
+                    </view>
+                    <view class="item_price">￥1.99</view>
+                    <view class="item_discount">￥3.48</view>
+                    <view class="item_button"> 
+                        <view class="button_logo"></view>
+                    </view>
+                </view>
+
+                <view class="scroll_item">
+                    <view class="item_img">
+                        <image src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    </view>
+                    <view class="item_name">
+                        阴阳草120g/袋
+                    </view>
+                    <view class="item_price">￥1.99</view>
+                    <view class="item_discount">￥3.48</view>
+                    <view class="item_button"> 
+                        <view class="button_logo"></view>
+                    </view>
+                </view>
+
+                <view class="scroll_item">
+                    <view class="item_img">
+                        <image src="" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    </view>
+                    <view class="item_name">
+                        阴阳草120g/袋
+                    </view>
+                    <view class="item_price">￥1.99</view>
+                    <view class="item_discount">￥3.48</view>
+                    <view class="item_button"> 
+                        <view class="button_logo"></view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+        <!-- 热销 -->
+        <view class="hot_sale">
+            <view class="top_box">
+                <view class="top_font">热销好货</view>
+                <view class="show_all">
+                    查看全部
+                    <!-- 最好使用ui箭头 -->
+                    <text decode class="arrow">&gt;</text>
+                </view>
+            </view>
+
+            <view class="goods_box">
+                <view class="goods_item">  
+                    <view class="item_img">
+                        <image> </image>
+                        <view class="is_new">
+                            <image class="new_image"> </image> 
+                            <text class="new_font">新品</text>
+                        </view>
+                    </view>
+                    <view class="item_content">
+                        <view class="item_name">黑色音乐果250g/份</view>
+                        <view class="item_limit"><view>限购5件</view></view>
+                        <view class="item_bottom">
+                            <view class="item_price">￥7.28</view>
+                            <view class="item_discount">￥9.9</view>
+                            <view class="item_button">
+                                <image></image>    
+                            </view>
+                        </view>
+                    </view>   
+                </view>
+
+                <view class="goods_item">  
+                    <view class="item_img opacity">
+                        <image> </image>
+                        <view class="sell_out">
+                            <view class="sell_out_font">
+                                已售罄
+                            </view>
+                        </view>
+                        <!-- <view class="is_new">
+                            <image class="new_image"> </image> 
+                            <text class="new_font">新品</text>
+                        </view> -->
+                    </view>
+                    <view class="item_content">
+                        <view class="item_name">黑色音乐果25000000g/份</view>
+                        <view class="item_limit"><view>限购5件</view></view>
+                        <view class="item_bottom">
+                            <view class="item_price">￥7.28</view>
+                            <view class="item_discount">￥9.9</view>
+                            <view class="item_button">
+                                <image></image>    
+                            </view>
+                        </view>
+                    </view>   
+                </view>
+
+                <view class="touch_bottom"> 
+                    <image> </image>
+                    <view class="touch_bottom_font">上滑加载更多~</view>
+                </view>
+
+            </view>
+        </view>
+    </view>
+<!-- 结算 -->
+    <view class="settlement"> 
+        <view class="sett_left">
+            已经加购<text>1件</text> 商品
+        </view>
+        <view class="sett_centre">
+            <text>合计:</text>
+            <text>￥7.28</text>
+        </view>
+        <view class="sett_button">
+            去结算
+        </view>
+
+    </view>
+
+    <!-- xuanfu -->
+    <view class="return_top"> 
+        <image> </image> 
+        <view> 顶部</view>   
+    </view>
+
+ 
+</view> 
