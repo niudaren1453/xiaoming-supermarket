@@ -1,0 +1,54 @@
+<view class="pickUpGoods">
+    <view class="bg_round"></view>
+    <view class="location_info">
+        <view class="location_text">已选择位置</view>
+        <view class="location_details">
+            <view class="details_logo"></view>
+            <view class="details_text">福建省福州市台江区达道路117-2号</view>
+        </view>
+        <view class="location_rectangle"></view>
+        <view class="location_button">
+            <view class="button_logo"></view>
+            <view class="button_text">修改地址</view>
+        </view>
+    </view>
+    <!-- 隔断   -->
+    <view class="slicing"></view>
+    <!-- 内容 -->
+    <scroll-view class="scroll-view">
+        <view class="box_item">
+            <!-- biaoqian -->
+            <view class="box_label">
+                <view class="label_text">上一单</view>
+            </view>
+            <!-- shang -->
+            <view class="box_top">
+                <view class="top_left">
+                    <view class="left_image">
+                        <image></image>
+                    </view>
+                    <viwe class="left_text_box">
+                        <view class="left_name">望原驼奶</view>
+                        <view class="left_range">据您xx.1km</view>
+                    </viwe>
+ 
+                    <!-- <view class=""> -->
+                </view>
+                <view class="top_right">
+                    <view class="right_content">
+                        当前选择的位置
+                    </view>
+                </view>
+            </view>
+            <!-- juxing -->
+            <view class="box_juxing">
+                
+            </view>
+            <!-- xia -->
+            <view class="box_bot">
+                <view class="bot_logo"></view>
+                <view class="bot_location_details">福建省福州市台江区达道路117-2号</view>
+            </view>    
+        </view>
+    </scroll-view>
+</view>
